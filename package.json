@@ -1,0 +1,8 @@
+{
+  "name": "wallaby-std-esm",
+  "version": "0.0.1",
+  "dependencies": {
+    "@std/esm": "^0.19.7",
+    "mocha": "^5.0.0"
+  }
+}
