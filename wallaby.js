@@ -9,7 +9,7 @@ module.exports = function () {
     env: {
       type: 'node',
       params: {
-        env: 'ESM_OPTIONS=cjs', runner: `-r ${require.resolve("@std/esm")}`
+        runner: `-r ${require.resolve('esm')}`
       }
     }
   }
